@@ -14,7 +14,6 @@ const Home = () => {
       <Prices />
       <Contact />
       <Footer />
-      <div className="h-[2000px]" />
     </div>
   );
 };

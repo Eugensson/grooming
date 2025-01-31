@@ -4,15 +4,15 @@ import { socialList } from "@/lib/data";
 
 export const Socials = () => {
   return (
-    <ul className="flex items-center gap-x-4">
+    <ul className="flex items-center justify-center gap-x-4">
       {socialList.map(({ icon: Icon, label, href }) => (
         <li
           key={label}
           aria-label={`${label} link`}
-          className="size-11 flex items-center justify-center border rounded-full border-black"
+          className="size-11 flex items-center justify-center rounded-full bg-[#fe8d71a9] hover:bg-[#fe8d71] transition-colors"
         >
           <Link href={href} target="_blank" rel="noreferrer noopener">
-            <Icon size={26} />
+            <Icon size={24} />
           </Link>
         </li>
       ))}
