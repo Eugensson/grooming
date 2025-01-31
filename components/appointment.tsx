@@ -32,7 +32,7 @@ export const Appointment = () => {
             placeholder="Контактний телефон"
           />
           <button type="submit" className="btn w-full max-w-[514px]">
-            Відправити заявку
+            Надіслати заявку
           </button>
         </form>
       </div>
